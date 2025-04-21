@@ -30,7 +30,7 @@
 
 Для распознавания изображений используется нейронная сеть [EasyOCR](https://github.com/JaidedAI/EasyOCR)
 
-# Быстрый старт (тут должна быть гиперссылка)
+# Быстрый старт 
 
 # Установка зависимостей
 pip install streamlit easyocr pillow numpy torch io
