@@ -32,7 +32,7 @@
 
 # Быстрый старт 
 
-# Установка зависимостей
+# Установка зависимостей:
 pip install streamlit easyocr pillow numpy torch io
 
 # Запуск приложения:
