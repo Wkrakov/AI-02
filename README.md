@@ -21,13 +21,13 @@
 
 Используются библиотеки:
 
-Streamlit
+- Streamlit
 
-EasyOCR
+- EasyOCR
 
-Pillow
+- Pillow
 
-Numpy
+- Numpy
 
 Для распознавания изображений используется нейронная сеть EasyOCR.
 
