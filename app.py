@@ -1,7 +1,7 @@
 import streamlit as st
 import easyocr
 from PIL import Image
-import numpy as np  # Добавляем импорт numpy
+import numpy as np  
 import io
 
 def load_image():
