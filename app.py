@@ -19,9 +19,9 @@ img = load_image()
 result = st.button('Распознать изображение')
 if result:
     if img is not None:
-        reader = easyocr.Reader(['en'])  # Создаем объект для распознавания текста на английском
-        result = reader.readtext(np.array(img))  # Преобразуем PIL Image в numpy array
-        text = ' '.join([item[1] for item in result])  # Извлекаем текст из результатов
+        reader = easyocr.Reader(['en'])  
+        result = reader.readtext(np.array(img))  
+        text = ' '.join([item[1] for item in result])  
         st.write('Результаты распознавания:')
         st.write(text)
     else:
